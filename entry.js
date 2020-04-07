@@ -1,3 +1,5 @@
+/* @flow strict */
+
 // const config = require('./babel.config.js');
 
 require('@babel/register');

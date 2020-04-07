@@ -6,9 +6,16 @@ import Entry, { SERVER } from '/client/src/Entry.jsx';
 import { version } from '/client/package.json';
 
 class RenderModel {
-  static View = ({ url }: { url: string }): React.Element<'html'> => (
+  static View = ({
+    url,
+    theme: {
+      checksum,
+      title
+    }
+  }: { url: string, theme: {} }): React.Element<'html'> => (
     <html>
       <head>
+        <link rel="stylesheet" href={`/theme/${title}?checksum=${checksum}`} />
         <title>Empty project</title>
         <meta charSet="utf-8" />
         {process.env.NODE_ENV !== 'development' ? (

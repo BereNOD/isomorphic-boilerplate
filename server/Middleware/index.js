@@ -7,6 +7,7 @@ import Path from 'path';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import Morgan from 'morgan';
+import './Mongo';
 
 const AssetsFolder = Path.join(__dirname, '..', '..', 'client', 'dist');
 

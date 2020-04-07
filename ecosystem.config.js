@@ -1,5 +1,8 @@
 /* @flow strict */
 
+// eslint-disable-next-line
+const env = require('dotenv').parse(require('fs').readFileSync('.env'));
+
 module.exports = {
   apps : [{
     name: 'API',
@@ -13,12 +16,14 @@ module.exports = {
     // eslint-disable-next-line
     max_memory_restart: '1G',
     env: {
+      ...env,
       PORT: 3000,
       NODE_ENV: 'development',
       DEBUG: 'server:*'
     },
     // eslint-disable-next-line
     env_production: {
+      ...env,
       PORT: 3000,
       NODE_ENV: 'production'
     }
