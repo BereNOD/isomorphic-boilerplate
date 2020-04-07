@@ -1,0 +1,3014 @@
+[
+  {
+    "timeStamp": 1580127246217,
+    "time": 4257,
+    "hash": "5f8e99e9106f3070b6c8",
+    "errors": [],
+    "size": 2545841,
+    "assets": [
+      {
+        "name": "0.5f8e99e9106f3070b6c8.js",
+        "chunks": [
+          0
+        ],
+        "size": 1363,
+        "minified": true
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 472
+      },
+      {
+        "name": "main.5f8e99e9106f3070b6c8.js",
+        "chunks": [
+          "main"
+        ],
+        "size": 20252,
+        "miniSize": 20052,
+        "minified": false
+      },
+      {
+        "name": "runtime.5f8e99e9106f3070b6c8.js",
+        "chunks": [
+          "runtime"
+        ],
+        "size": 34784,
+        "miniSize": 28850,
+        "minified": false
+      },
+      {
+        "name": "vendors.5f8e99e9106f3070b6c8.js",
+        "chunks": [
+          "vendors"
+        ],
+        "size": 2488970,
+        "miniSize": 2487229,
+        "minified": false
+      }
+    ],
+    "chunks": [
+      {
+        "size": 657,
+        "files": [
+          "0.5f8e99e9106f3070b6c8.js"
+        ],
+        "modules": [
+          {
+            "name": "./src/components/Title.jsx",
+            "size": 657,
+            "id": "./src/components/Title.jsx"
+          }
+        ]
+      },
+      {
+        "size": 10914,
+        "files": [
+          "main.5f8e99e9106f3070b6c8.js"
+        ],
+        "modules": [
+          {
+            "name": "multi (webpack)-dev-server/client?http://localhost:8080 (webpack)/hot/dev-server.js react-hot-loader/patch ./src/index.jsx",
+            "size": 64,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles.scss",
+            "size": 285,
+            "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles.scss"
+          },
+          {
+            "name": "(webpack)/hot sync nonrecursive ^\\.\\/log$",
+            "size": 170,
+            "id": "./node_modules/webpack/hot sync ^\\.\\/log$"
+          },
+          {
+            "name": "./src/Entry.jsx",
+            "size": 2316,
+            "id": "./src/Entry.jsx"
+          },
+          {
+            "name": "./src/components/Navigation.jsx",
+            "size": 963,
+            "id": "./src/components/Navigation.jsx"
+          },
+          {
+            "name": "./src/components/Suspense.jsx",
+            "size": 1075,
+            "id": "./src/components/Suspense.jsx"
+          },
+          {
+            "name": "./src/index.jsx",
+            "size": 590,
+            "id": "./src/index.jsx"
+          },
+          {
+            "name": "./src/pages/About.jsx",
+            "size": 1100,
+            "id": "./src/pages/About.jsx"
+          },
+          {
+            "name": "./src/pages/Home.jsx",
+            "size": 1099,
+            "id": "./src/pages/Home.jsx"
+          },
+          {
+            "name": "./src/routes.js",
+            "size": 1991,
+            "id": "./src/routes.js"
+          },
+          {
+            "name": "./src/styles.scss",
+            "size": 1261,
+            "id": "./src/styles.scss"
+          }
+        ]
+      },
+      {
+        "size": 0,
+        "files": [
+          "runtime.5f8e99e9106f3070b6c8.js"
+        ],
+        "modules": []
+      },
+      {
+        "size": 2343612,
+        "files": [
+          "vendors.5f8e99e9106f3070b6c8.js"
+        ],
+        "modules": [
+          {
+            "name": "../node_modules/@babel/runtime/helpers/esm/extends.js",
+            "size": 397,
+            "id": "../node_modules/@babel/runtime/helpers/esm/extends.js"
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+            "size": 204,
+            "id": "../node_modules/@babel/runtime/helpers/esm/inheritsLoose.js"
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+            "size": 350,
+            "id": "../node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js"
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/extends.js",
+            "size": 427,
+            "id": "../node_modules/@babel/runtime/helpers/extends.js"
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/inheritsLoose.js",
+            "size": 223,
+            "id": "../node_modules/@babel/runtime/helpers/inheritsLoose.js"
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+            "size": 147,
+            "id": "../node_modules/@babel/runtime/helpers/interopRequireDefault.js"
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+            "size": 1179,
+            "id": "../node_modules/@babel/runtime/helpers/interopRequireWildcard.js"
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectDestructuringEmpty.js",
+            "size": 160,
+            "id": "../node_modules/@babel/runtime/helpers/objectDestructuringEmpty.js"
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+            "size": 665,
+            "id": "../node_modules/@babel/runtime/helpers/objectWithoutProperties.js"
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
+            "size": 384,
+            "id": "../node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js"
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/typeof.js",
+            "size": 449,
+            "id": "../node_modules/@babel/runtime/helpers/typeof.js"
+          },
+          {
+            "name": "../node_modules/gud/index.js",
+            "size": 139,
+            "id": "../node_modules/gud/index.js"
+          },
+          {
+            "name": "../node_modules/history/esm/history.js",
+            "size": 28728,
+            "id": "../node_modules/history/esm/history.js"
+          },
+          {
+            "name": "../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+            "size": 2645,
+            "id": "../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"
+          },
+          {
+            "name": "../node_modules/mini-create-react-context/dist/esm/index.js",
+            "size": 4790,
+            "id": "../node_modules/mini-create-react-context/dist/esm/index.js"
+          },
+          {
+            "name": "../node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": "../node_modules/object-assign/index.js"
+          },
+          {
+            "name": "../node_modules/prop-types/checkPropTypes.js",
+            "size": 3781,
+            "id": "../node_modules/prop-types/checkPropTypes.js"
+          },
+          {
+            "name": "../node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 21563,
+            "id": "../node_modules/prop-types/factoryWithTypeCheckers.js"
+          },
+          {
+            "name": "../node_modules/prop-types/index.js",
+            "size": 710,
+            "id": "../node_modules/prop-types/index.js"
+          },
+          {
+            "name": "../node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 314,
+            "id": "../node_modules/prop-types/lib/ReactPropTypesSecret.js"
+          },
+          {
+            "name": "../node_modules/react-is/cjs/react-is.development.js",
+            "size": 8795,
+            "id": "../node_modules/react-is/cjs/react-is.development.js"
+          },
+          {
+            "name": "../node_modules/react-is/index.js",
+            "size": 196,
+            "id": "../node_modules/react-is/index.js"
+          },
+          {
+            "name": "../node_modules/react-router-dom/esm/react-router-dom.js",
+            "size": 9997,
+            "id": "../node_modules/react-router-dom/esm/react-router-dom.js"
+          },
+          {
+            "name": "../node_modules/react-router/esm/react-router.js",
+            "size": 25064,
+            "id": "../node_modules/react-router/esm/react-router.js"
+          },
+          {
+            "name": "../node_modules/react-router/node_modules/isarray/index.js",
+            "size": 120,
+            "id": "../node_modules/react-router/node_modules/isarray/index.js"
+          },
+          {
+            "name": "../node_modules/react-router/node_modules/path-to-regexp/index.js",
+            "size": 10854,
+            "id": "../node_modules/react-router/node_modules/path-to-regexp/index.js"
+          },
+          {
+            "name": "../node_modules/react/cjs/react.development.js",
+            "size": 74430,
+            "id": "../node_modules/react/cjs/react.development.js"
+          },
+          {
+            "name": "../node_modules/react/index.js",
+            "size": 190,
+            "id": "../node_modules/react/index.js"
+          },
+          {
+            "name": "../node_modules/resolve-pathname/esm/resolve-pathname.js",
+            "size": 1765,
+            "id": "../node_modules/resolve-pathname/esm/resolve-pathname.js"
+          },
+          {
+            "name": "../node_modules/tiny-invariant/dist/tiny-invariant.esm.js",
+            "size": 317,
+            "id": "../node_modules/tiny-invariant/dist/tiny-invariant.esm.js"
+          },
+          {
+            "name": "../node_modules/tiny-warning/dist/tiny-warning.esm.js",
+            "size": 361,
+            "id": "../node_modules/tiny-warning/dist/tiny-warning.esm.js"
+          },
+          {
+            "name": "../node_modules/value-equal/esm/value-equal.js",
+            "size": 860,
+            "id": "../node_modules/value-equal/esm/value-equal.js"
+          },
+          {
+            "name": "./node_modules/@hot-loader/react-dom/cjs/react-dom.development.js",
+            "size": 969195,
+            "id": "./node_modules/@hot-loader/react-dom/cjs/react-dom.development.js"
+          },
+          {
+            "name": "./node_modules/@hot-loader/react-dom/index.js",
+            "size": 1363,
+            "id": "./node_modules/@hot-loader/react-dom/index.js"
+          },
+          {
+            "name": "./node_modules/ansi-html/index.js",
+            "size": 4263,
+            "id": "./node_modules/ansi-html/index.js"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src!./node_modules/normalize.css/normalize.css",
+            "size": 6790,
+            "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js!./node_modules/normalize.css/normalize.css"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src!./node_modules/reset-css/reset.css",
+            "size": 1485,
+            "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js!./node_modules/reset-css/reset.css"
+          },
+          {
+            "name": "./node_modules/css-loader/dist/runtime/api.js",
+            "size": 2517,
+            "id": "./node_modules/css-loader/dist/runtime/api.js"
+          },
+          {
+            "name": "./node_modules/events/events.js",
+            "size": 13264,
+            "id": "./node_modules/events/events.js"
+          },
+          {
+            "name": "./node_modules/fast-levenshtein/levenshtein.js",
+            "size": 3932,
+            "id": "./node_modules/fast-levenshtein/levenshtein.js"
+          },
+          {
+            "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+            "size": 2645,
+            "id": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"
+          },
+          {
+            "name": "./node_modules/html-entities/index.js",
+            "size": 231,
+            "id": "./node_modules/html-entities/index.js"
+          },
+          {
+            "name": "./node_modules/html-entities/lib/html4-entities.js",
+            "size": 6587,
+            "id": "./node_modules/html-entities/lib/html4-entities.js"
+          },
+          {
+            "name": "./node_modules/html-entities/lib/html5-entities.js",
+            "size": 48986,
+            "id": "./node_modules/html-entities/lib/html5-entities.js"
+          },
+          {
+            "name": "./node_modules/html-entities/lib/xml-entities.js",
+            "size": 2993,
+            "id": "./node_modules/html-entities/lib/xml-entities.js"
+          },
+          {
+            "name": "./node_modules/lodash/lodash.js",
+            "size": 540512,
+            "id": "./node_modules/lodash/lodash.js"
+          },
+          {
+            "name": "./node_modules/loglevel/lib/loglevel.js",
+            "size": 8560,
+            "id": "./node_modules/loglevel/lib/loglevel.js"
+          },
+          {
+            "name": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
+            "size": 14670,
+            "id": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js"
+          },
+          {
+            "name": "./node_modules/normalize.css/normalize.css",
+            "size": 1218,
+            "id": "./node_modules/normalize.css/normalize.css"
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": "./node_modules/object-assign/index.js"
+          },
+          {
+            "name": "./node_modules/prop-types/checkPropTypes.js",
+            "size": 3781,
+            "id": "./node_modules/prop-types/checkPropTypes.js"
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+            "size": 21563,
+            "id": "./node_modules/prop-types/factoryWithTypeCheckers.js"
+          },
+          {
+            "name": "./node_modules/prop-types/index.js",
+            "size": 710,
+            "id": "./node_modules/prop-types/index.js"
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 314,
+            "id": "./node_modules/prop-types/lib/ReactPropTypesSecret.js"
+          },
+          {
+            "name": "./node_modules/querystring-es3/decode.js",
+            "size": 2510,
+            "id": "./node_modules/querystring-es3/decode.js"
+          },
+          {
+            "name": "./node_modules/querystring-es3/encode.js",
+            "size": 2544,
+            "id": "./node_modules/querystring-es3/encode.js"
+          },
+          {
+            "name": "./node_modules/querystring-es3/index.js",
+            "size": 127,
+            "id": "./node_modules/querystring-es3/index.js"
+          },
+          {
+            "name": "./node_modules/react-hot-loader/dist/react-hot-loader.development.js",
+            "size": 99429,
+            "id": "./node_modules/react-hot-loader/dist/react-hot-loader.development.js"
+          },
+          {
+            "name": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+            "size": 1103,
+            "id": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js"
+          },
+          {
+            "name": "./node_modules/react-hot-loader/index.js",
+            "size": 1591,
+            "id": "./node_modules/react-hot-loader/index.js"
+          },
+          {
+            "name": "./node_modules/react-hot-loader/patch.js",
+            "size": 229,
+            "id": "./node_modules/react-hot-loader/patch.js"
+          },
+          {
+            "name": "./node_modules/react-hot-loader/root.js",
+            "size": 858,
+            "id": "./node_modules/react-hot-loader/root.js"
+          },
+          {
+            "name": "./node_modules/react-is/cjs/react-is.development.js",
+            "size": 8795,
+            "id": "./node_modules/react-is/cjs/react-is.development.js"
+          },
+          {
+            "name": "./node_modules/react-is/index.js",
+            "size": 196,
+            "id": "./node_modules/react-is/index.js"
+          },
+          {
+            "name": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+            "size": 6048,
+            "id": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js"
+          },
+          {
+            "name": "./node_modules/react/cjs/react.development.js",
+            "size": 74430,
+            "id": "./node_modules/react/cjs/react.development.js"
+          },
+          {
+            "name": "./node_modules/react/index.js",
+            "size": 190,
+            "id": "./node_modules/react/index.js"
+          },
+          {
+            "name": "./node_modules/reset-css/reset.css",
+            "size": 1206,
+            "id": "./node_modules/reset-css/reset.css"
+          },
+          {
+            "name": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
+            "size": 11585,
+            "id": "./node_modules/scheduler/cjs/scheduler-tracing.development.js"
+          },
+          {
+            "name": "./node_modules/scheduler/cjs/scheduler.development.js",
+            "size": 30410,
+            "id": "./node_modules/scheduler/cjs/scheduler.development.js"
+          },
+          {
+            "name": "./node_modules/scheduler/index.js",
+            "size": 198,
+            "id": "./node_modules/scheduler/index.js"
+          },
+          {
+            "name": "./node_modules/scheduler/tracing.js",
+            "size": 214,
+            "id": "./node_modules/scheduler/tracing.js"
+          },
+          {
+            "name": "./node_modules/shallowequal/index.js",
+            "size": 979,
+            "id": "./node_modules/shallowequal/index.js"
+          },
+          {
+            "name": "./node_modules/sockjs-client/dist/sockjs.js",
+            "size": 184908,
+            "id": "./node_modules/sockjs-client/dist/sockjs.js"
+          },
+          {
+            "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+            "size": 5969,
+            "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js"
+          },
+          {
+            "name": "./node_modules/url/url.js",
+            "size": 23317,
+            "id": "./node_modules/url/url.js"
+          },
+          {
+            "name": "./node_modules/url/util.js",
+            "size": 314,
+            "id": "./node_modules/url/util.js"
+          },
+          {
+            "name": "(webpack)-dev-server/client/clients/BaseClient.js",
+            "size": 1059,
+            "id": "./node_modules/webpack-dev-server/client/clients/BaseClient.js"
+          },
+          {
+            "name": "(webpack)-dev-server/client/clients/SockJSClient.js",
+            "size": 3407,
+            "id": "./node_modules/webpack-dev-server/client/clients/SockJSClient.js"
+          },
+          {
+            "name": "(webpack)-dev-server/client?http://localhost:8080",
+            "size": 4390,
+            "id": "./node_modules/webpack-dev-server/client/index.js?http://localhost:8080"
+          },
+          {
+            "name": "(webpack)-dev-server/client/overlay.js",
+            "size": 3596,
+            "id": "./node_modules/webpack-dev-server/client/overlay.js"
+          },
+          {
+            "name": "(webpack)-dev-server/client/socket.js",
+            "size": 1568,
+            "id": "./node_modules/webpack-dev-server/client/socket.js"
+          },
+          {
+            "name": "(webpack)-dev-server/client/utils/createSocketUrl.js",
+            "size": 2978,
+            "id": "./node_modules/webpack-dev-server/client/utils/createSocketUrl.js"
+          },
+          {
+            "name": "(webpack)-dev-server/client/utils/getCurrentScriptSource.js",
+            "size": 658,
+            "id": "./node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js"
+          },
+          {
+            "name": "(webpack)-dev-server/client/utils/log.js",
+            "size": 964,
+            "id": "./node_modules/webpack-dev-server/client/utils/log.js"
+          },
+          {
+            "name": "(webpack)-dev-server/client/utils/reloadApp.js",
+            "size": 1630,
+            "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js"
+          },
+          {
+            "name": "(webpack)-dev-server/client/utils/sendMessage.js",
+            "size": 402,
+            "id": "./node_modules/webpack-dev-server/client/utils/sendMessage.js"
+          },
+          {
+            "name": "(webpack)-dev-server/node_modules/ansi-regex/index.js",
+            "size": 135,
+            "id": "./node_modules/webpack-dev-server/node_modules/ansi-regex/index.js"
+          },
+          {
+            "name": "(webpack)-dev-server/node_modules/strip-ansi/index.js",
+            "size": 161,
+            "id": "./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js"
+          },
+          {
+            "name": "(webpack)/buildin/amd-define.js",
+            "size": 85,
+            "id": "./node_modules/webpack/buildin/amd-define.js"
+          },
+          {
+            "name": "(webpack)/buildin/amd-options.js",
+            "size": 80,
+            "id": "./node_modules/webpack/buildin/amd-options.js"
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 472,
+            "id": "./node_modules/webpack/buildin/global.js"
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 497,
+            "id": "./node_modules/webpack/buildin/module.js"
+          },
+          {
+            "name": "(webpack)/hot/dev-server.js",
+            "size": 1632,
+            "id": "./node_modules/webpack/hot/dev-server.js"
+          },
+          {
+            "name": "(webpack)/hot/emitter.js",
+            "size": 75,
+            "id": "./node_modules/webpack/hot/emitter.js"
+          },
+          {
+            "name": "(webpack)/hot/log-apply-result.js",
+            "size": 1302,
+            "id": "./node_modules/webpack/hot/log-apply-result.js"
+          },
+          {
+            "name": "(webpack)/hot/log.js",
+            "size": 1372,
+            "id": "./node_modules/webpack/hot/log.js"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1580127311606,
+    "time": 4026,
+    "hash": "eb39388005a239e4c6b4",
+    "errors": [],
+    "size": 256893,
+    "assets": [
+      {
+        "name": "0.js",
+        "chunks": [
+          0
+        ],
+        "size": 340,
+        "minified": true
+      },
+      {
+        "name": "main.css",
+        "chunks": [
+          1
+        ],
+        "size": 38
+      },
+      {
+        "name": "main.js",
+        "chunks": [
+          1
+        ],
+        "size": 4094,
+        "minified": true
+      },
+      {
+        "name": "runtime.js",
+        "chunks": [
+          2
+        ],
+        "size": 2255,
+        "minified": true
+      },
+      {
+        "name": "vendors.css",
+        "chunks": [
+          3
+        ],
+        "size": 7393
+      },
+      {
+        "name": "vendors.js",
+        "chunks": [
+          3
+        ],
+        "size": 242773,
+        "miniSize": 244263,
+        "minified": false
+      }
+    ],
+    "chunks": [
+      {
+        "size": 657,
+        "files": [
+          "0.js"
+        ],
+        "modules": [
+          {
+            "name": "./src/components/Title.jsx",
+            "size": 657,
+            "id": 20
+          }
+        ]
+      },
+      {
+        "size": 9250,
+        "files": [
+          "main.css",
+          "main.js"
+        ],
+        "modules": [
+          {
+            "name": "./src/Entry.jsx",
+            "size": 2316,
+            "id": 14
+          },
+          {
+            "name": "./src/components/Suspense.jsx",
+            "size": 1075,
+            "id": 16
+          },
+          {
+            "name": "./src/components/Navigation.jsx",
+            "size": 963,
+            "id": 17
+          },
+          {
+            "name": "multi react-hot-loader/patch ./src/index.jsx",
+            "size": 40,
+            "id": 21
+          },
+          {
+            "name": "./src/index.jsx",
+            "size": 590,
+            "id": 25
+          },
+          {
+            "name": "./src/routes.js",
+            "size": 1991,
+            "id": 42
+          },
+          {
+            "name": "./src/pages/Home.jsx",
+            "size": 1099,
+            "id": 43
+          },
+          {
+            "name": "./src/pages/About.jsx",
+            "size": 1100,
+            "id": 46
+          },
+          {
+            "name": "./src/styles.scss",
+            "size": 39,
+            "id": 49
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles.scss",
+            "size": 37,
+            "id": ""
+          }
+        ]
+      },
+      {
+        "size": 0,
+        "files": [
+          "runtime.js"
+        ],
+        "modules": []
+      },
+      {
+        "size": 792704,
+        "files": [
+          "vendors.css",
+          "vendors.js"
+        ],
+        "modules": [
+          {
+            "name": "../node_modules/react/index.js",
+            "size": 190,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/react/index.js",
+            "size": 190,
+            "id": 1
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+            "size": 1179,
+            "id": 2
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+            "size": 147,
+            "id": 3
+          },
+          {
+            "name": "../node_modules/prop-types/index.js",
+            "size": 710,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/prop-types/index.js",
+            "size": 710,
+            "id": 5
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectDestructuringEmpty.js",
+            "size": 160,
+            "id": 7
+          },
+          {
+            "name": "../node_modules/react-router-dom/esm/react-router-dom.js + 9 modules",
+            "size": 72507,
+            "id": 8
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/inheritsLoose.js",
+            "size": 223,
+            "id": 9
+          },
+          {
+            "name": "../node_modules/react-router/node_modules/path-to-regexp/index.js",
+            "size": 10854,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 11
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 472,
+            "id": 12
+          },
+          {
+            "name": "../node_modules/react-is/index.js",
+            "size": 196,
+            "id": 13
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+            "size": 665,
+            "id": 15
+          },
+          {
+            "name": "../node_modules/gud/index.js",
+            "size": 139,
+            "id": 18
+          },
+          {
+            "name": "../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+            "size": 2645,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/react-hot-loader/patch.js",
+            "size": 229,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+            "size": 1103,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/cjs/react.production.min.js",
+            "size": 6645,
+            "id": 24
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/typeof.js",
+            "size": 449,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/@hot-loader/react-dom/index.js",
+            "size": 1363,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/@hot-loader/react-dom/cjs/react-dom.production.min.js",
+            "size": 119061,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/scheduler/index.js",
+            "size": 198,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+            "size": 5114,
+            "id": 30
+          },
+          {
+            "name": "../node_modules/react/cjs/react.production.min.js",
+            "size": 6645,
+            "id": 31
+          },
+          {
+            "name": "../node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 32
+          },
+          {
+            "name": "../node_modules/prop-types/factoryWithThrowingShims.js",
+            "size": 1621,
+            "id": 33
+          },
+          {
+            "name": "../node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 314,
+            "id": 34
+          },
+          {
+            "name": "../node_modules/react-router/node_modules/isarray/index.js",
+            "size": 120,
+            "id": 35
+          },
+          {
+            "name": "../node_modules/react-is/cjs/react-is.production.min.js",
+            "size": 2557,
+            "id": 36
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/extends.js",
+            "size": 427,
+            "id": 37
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
+            "size": 384,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/react-hot-loader/root.js",
+            "size": 858,
+            "id": 39
+          },
+          {
+            "name": "./node_modules/lodash/lodash.js",
+            "size": 540512,
+            "id": 40
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 497,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+            "size": 1621,
+            "id": 44
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 314,
+            "id": 45
+          },
+          {
+            "name": "./node_modules/normalize.css/normalize.css",
+            "size": 39,
+            "id": 47
+          },
+          {
+            "name": "./node_modules/reset-css/reset.css",
+            "size": 39,
+            "id": 48
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src!./node_modules/reset-css/reset.css",
+            "size": 1200,
+            "id": ""
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src!./node_modules/normalize.css/normalize.css",
+            "size": 6191,
+            "id": ""
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 6186,
+    "unPureCssSize": 7431
+  },
+  {
+    "timeStamp": 1580132426503,
+    "time": 7514,
+    "hash": "ebec4a8c7a312c9ebb23",
+    "errors": [],
+    "size": 257451,
+    "assets": [
+      {
+        "name": "0.js",
+        "chunks": [
+          0
+        ],
+        "size": 340,
+        "minified": true
+      },
+      {
+        "name": "main.css",
+        "chunks": [
+          1
+        ],
+        "size": 38
+      },
+      {
+        "name": "main.js",
+        "chunks": [
+          1
+        ],
+        "size": 4650,
+        "minified": true
+      },
+      {
+        "name": "runtime.js",
+        "chunks": [
+          2
+        ],
+        "size": 2255,
+        "minified": true
+      },
+      {
+        "name": "vendors.css",
+        "chunks": [
+          3
+        ],
+        "size": 7393
+      },
+      {
+        "name": "vendors.js",
+        "chunks": [
+          3
+        ],
+        "size": 242775,
+        "miniSize": 244265,
+        "minified": false
+      }
+    ],
+    "chunks": [
+      {
+        "size": 657,
+        "files": [
+          "0.js"
+        ],
+        "modules": [
+          {
+            "name": "./src/components/Title.jsx",
+            "size": 657,
+            "id": 13
+          }
+        ]
+      },
+      {
+        "size": 10583,
+        "files": [
+          "main.css",
+          "main.js"
+        ],
+        "modules": [
+          {
+            "name": "./src/components/Suspense.jsx",
+            "size": 1075,
+            "id": 8
+          },
+          {
+            "name": "./src/components/Navigation.jsx",
+            "size": 1063,
+            "id": 9
+          },
+          {
+            "name": "./src/Entry.jsx",
+            "size": 2316,
+            "id": 17
+          },
+          {
+            "name": "multi react-hot-loader/patch ./src/index.jsx",
+            "size": 40,
+            "id": 21
+          },
+          {
+            "name": "./src/index.jsx",
+            "size": 590,
+            "id": 25
+          },
+          {
+            "name": "./src/routes.js",
+            "size": 2124,
+            "id": 42
+          },
+          {
+            "name": "./src/pages/Home.jsx",
+            "size": 1099,
+            "id": 43
+          },
+          {
+            "name": "./src/pages/About.jsx",
+            "size": 1100,
+            "id": 46
+          },
+          {
+            "name": "./src/pages/ToDo.jsx",
+            "size": 1100,
+            "id": 47
+          },
+          {
+            "name": "./src/styles.scss",
+            "size": 39,
+            "id": 50
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles.scss",
+            "size": 37,
+            "id": ""
+          }
+        ]
+      },
+      {
+        "size": 0,
+        "files": [
+          "runtime.js"
+        ],
+        "modules": []
+      },
+      {
+        "size": 792704,
+        "files": [
+          "vendors.css",
+          "vendors.js"
+        ],
+        "modules": [
+          {
+            "name": "../node_modules/react/index.js",
+            "size": 190,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/react/index.js",
+            "size": 190,
+            "id": 1
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+            "size": 1179,
+            "id": 2
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+            "size": 147,
+            "id": 3
+          },
+          {
+            "name": "../node_modules/prop-types/index.js",
+            "size": 710,
+            "id": 4
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectDestructuringEmpty.js",
+            "size": 160,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/prop-types/index.js",
+            "size": 710,
+            "id": 6
+          },
+          {
+            "name": "../node_modules/react-router-dom/esm/react-router-dom.js + 9 modules",
+            "size": 72507,
+            "id": 10
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/inheritsLoose.js",
+            "size": 223,
+            "id": 11
+          },
+          {
+            "name": "../node_modules/react-router/node_modules/path-to-regexp/index.js",
+            "size": 10854,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 14
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 472,
+            "id": 15
+          },
+          {
+            "name": "../node_modules/react-is/index.js",
+            "size": 196,
+            "id": 16
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+            "size": 665,
+            "id": 18
+          },
+          {
+            "name": "../node_modules/gud/index.js",
+            "size": 139,
+            "id": 19
+          },
+          {
+            "name": "../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+            "size": 2645,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react-hot-loader/patch.js",
+            "size": 229,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+            "size": 1103,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react/cjs/react.production.min.js",
+            "size": 6645,
+            "id": 24
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/typeof.js",
+            "size": 449,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/@hot-loader/react-dom/index.js",
+            "size": 1363,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/@hot-loader/react-dom/cjs/react-dom.production.min.js",
+            "size": 119061,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/scheduler/index.js",
+            "size": 198,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+            "size": 5114,
+            "id": 30
+          },
+          {
+            "name": "../node_modules/react/cjs/react.production.min.js",
+            "size": 6645,
+            "id": 31
+          },
+          {
+            "name": "../node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 32
+          },
+          {
+            "name": "../node_modules/prop-types/factoryWithThrowingShims.js",
+            "size": 1621,
+            "id": 33
+          },
+          {
+            "name": "../node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 314,
+            "id": 34
+          },
+          {
+            "name": "../node_modules/react-router/node_modules/isarray/index.js",
+            "size": 120,
+            "id": 35
+          },
+          {
+            "name": "../node_modules/react-is/cjs/react-is.production.min.js",
+            "size": 2557,
+            "id": 36
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/extends.js",
+            "size": 427,
+            "id": 37
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
+            "size": 384,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/react-hot-loader/root.js",
+            "size": 858,
+            "id": 39
+          },
+          {
+            "name": "./node_modules/lodash/lodash.js",
+            "size": 540512,
+            "id": 40
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 497,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+            "size": 1621,
+            "id": 44
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 314,
+            "id": 45
+          },
+          {
+            "name": "./node_modules/normalize.css/normalize.css",
+            "size": 39,
+            "id": 48
+          },
+          {
+            "name": "./node_modules/reset-css/reset.css",
+            "size": 39,
+            "id": 49
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src!./node_modules/reset-css/reset.css",
+            "size": 1200,
+            "id": ""
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src!./node_modules/normalize.css/normalize.css",
+            "size": 6191,
+            "id": ""
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 6186,
+    "unPureCssSize": 7431
+  },
+  {
+    "timeStamp": 1580134686005,
+    "time": 8490,
+    "hash": "097ef7977d62df496de8",
+    "errors": [],
+    "size": 258304,
+    "assets": [
+      {
+        "name": "main.css",
+        "chunks": [
+          0
+        ],
+        "size": 38
+      },
+      {
+        "name": "main.js",
+        "chunks": [
+          0
+        ],
+        "size": 5661,
+        "minified": true
+      },
+      {
+        "name": "runtime.js",
+        "chunks": [
+          1
+        ],
+        "size": 1492,
+        "minified": true
+      },
+      {
+        "name": "vendors.css",
+        "chunks": [
+          2
+        ],
+        "size": 7393
+      },
+      {
+        "name": "vendors.js",
+        "chunks": [
+          2
+        ],
+        "size": 243720,
+        "miniSize": 245224,
+        "minified": false
+      }
+    ],
+    "chunks": [
+      {
+        "size": 12885,
+        "files": [
+          "main.css",
+          "main.js"
+        ],
+        "modules": [
+          {
+            "name": "./src/components/Navigation.jsx",
+            "size": 1063,
+            "id": 9
+          },
+          {
+            "name": "./src/components/Title.jsx",
+            "size": 657,
+            "id": 10
+          },
+          {
+            "name": "./src/Entry.jsx",
+            "size": 2316,
+            "id": 17
+          },
+          {
+            "name": "./src/components/Suspense.jsx",
+            "size": 1075,
+            "id": 19
+          },
+          {
+            "name": "multi react-hot-loader/patch ./src/index.jsx",
+            "size": 40,
+            "id": 22
+          },
+          {
+            "name": "./src/index.jsx",
+            "size": 590,
+            "id": 26
+          },
+          {
+            "name": "./src/routes.js",
+            "size": 2124,
+            "id": 42
+          },
+          {
+            "name": "./src/pages/Home.jsx",
+            "size": 1099,
+            "id": 43
+          },
+          {
+            "name": "./src/pages/About.jsx",
+            "size": 1100,
+            "id": 46
+          },
+          {
+            "name": "./src/pages/ToDo.jsx",
+            "size": 2745,
+            "id": 47
+          },
+          {
+            "name": "./src/styles.scss",
+            "size": 39,
+            "id": 56
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles.scss",
+            "size": 37,
+            "id": ""
+          }
+        ]
+      },
+      {
+        "size": 0,
+        "files": [
+          "runtime.js"
+        ],
+        "modules": []
+      },
+      {
+        "size": 794471,
+        "files": [
+          "vendors.css",
+          "vendors.js"
+        ],
+        "modules": [
+          {
+            "name": "../node_modules/react/index.js",
+            "size": 190,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/react/index.js",
+            "size": 190,
+            "id": 1
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+            "size": 1179,
+            "id": 2
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+            "size": 147,
+            "id": 3
+          },
+          {
+            "name": "../node_modules/prop-types/index.js",
+            "size": 710,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/prop-types/index.js",
+            "size": 710,
+            "id": 5
+          },
+          {
+            "name": "../node_modules/react-router-dom/esm/react-router-dom.js + 9 modules",
+            "size": 72507,
+            "id": 6
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectDestructuringEmpty.js",
+            "size": 160,
+            "id": 8
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/inheritsLoose.js",
+            "size": 223,
+            "id": 11
+          },
+          {
+            "name": "../node_modules/react-router/node_modules/path-to-regexp/index.js",
+            "size": 10854,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 13
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/typeof.js",
+            "size": 449,
+            "id": 14
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 472,
+            "id": 15
+          },
+          {
+            "name": "../node_modules/react-is/index.js",
+            "size": 196,
+            "id": 16
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+            "size": 665,
+            "id": 18
+          },
+          {
+            "name": "../node_modules/gud/index.js",
+            "size": 139,
+            "id": 20
+          },
+          {
+            "name": "../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+            "size": 2645,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react-hot-loader/patch.js",
+            "size": 229,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+            "size": 1103,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/cjs/react.production.min.js",
+            "size": 6645,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/@hot-loader/react-dom/index.js",
+            "size": 1363,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/@hot-loader/react-dom/cjs/react-dom.production.min.js",
+            "size": 119061,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/scheduler/index.js",
+            "size": 198,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+            "size": 5114,
+            "id": 30
+          },
+          {
+            "name": "../node_modules/react/cjs/react.production.min.js",
+            "size": 6645,
+            "id": 31
+          },
+          {
+            "name": "../node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 32
+          },
+          {
+            "name": "../node_modules/prop-types/factoryWithThrowingShims.js",
+            "size": 1621,
+            "id": 33
+          },
+          {
+            "name": "../node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 314,
+            "id": 34
+          },
+          {
+            "name": "../node_modules/react-router/node_modules/isarray/index.js",
+            "size": 120,
+            "id": 35
+          },
+          {
+            "name": "../node_modules/react-is/cjs/react-is.production.min.js",
+            "size": 2557,
+            "id": 36
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/extends.js",
+            "size": 427,
+            "id": 37
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
+            "size": 384,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/react-hot-loader/root.js",
+            "size": 858,
+            "id": 39
+          },
+          {
+            "name": "./node_modules/lodash/lodash.js",
+            "size": 540512,
+            "id": 40
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 497,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+            "size": 1621,
+            "id": 44
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 314,
+            "id": 45
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/classCallCheck.js",
+            "size": 196,
+            "id": 48
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+            "size": 343,
+            "id": 49
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/assertThisInitialized.js",
+            "size": 219,
+            "id": 50
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+            "size": 267,
+            "id": 51
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/inherits.js",
+            "size": 505,
+            "id": 52
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/setPrototypeOf.js",
+            "size": 237,
+            "id": 53
+          },
+          {
+            "name": "./node_modules/normalize.css/normalize.css",
+            "size": 39,
+            "id": 54
+          },
+          {
+            "name": "./node_modules/reset-css/reset.css",
+            "size": 39,
+            "id": 55
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src!./node_modules/normalize.css/normalize.css",
+            "size": 6191,
+            "id": ""
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src!./node_modules/reset-css/reset.css",
+            "size": 1200,
+            "id": ""
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 6218,
+    "unPureCssSize": 7431
+  },
+  {
+    "timeStamp": 1580134953552,
+    "time": 7798,
+    "hash": "47794c59195971a61438",
+    "errors": [
+      "./src/pages/ToDo/index.jsx\nModule not found: Error: Can't resolve './../components/Navigation.jsx' in '/home/vadim/Documents/kengu.ru/client/src/pages/ToDo'\nresolve './../components/Navigation.jsx' in '/home/vadim/Documents/kengu.ru/client/src/pages/ToDo'\n  using description file: /home/vadim/Documents/kengu.ru/client/package.json (relative path: ./src/pages/ToDo)\n    Field 'browser' doesn't contain a valid alias configuration\n    using description file: /home/vadim/Documents/kengu.ru/client/package.json (relative path: ./src/pages/components/Navigation.jsx)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /home/vadim/Documents/kengu.ru/client/src/pages/components/Navigation.jsx doesn't exist\n      .js\n        Field 'browser' doesn't contain a valid alias configuration\n        /home/vadim/Documents/kengu.ru/client/src/pages/components/Navigation.jsx.js doesn't exist\n      .jsx\n        Field 'browser' doesn't contain a valid alias configuration\n        /home/vadim/Documents/kengu.ru/client/src/pages/components/Navigation.jsx.jsx doesn't exist\n      as directory\n        /home/vadim/Documents/kengu.ru/client/src/pages/components/Navigation.jsx doesn't exist\n[/home/vadim/Documents/kengu.ru/client/src/pages/components/Navigation.jsx]\n[/home/vadim/Documents/kengu.ru/client/src/pages/components/Navigation.jsx.js]\n[/home/vadim/Documents/kengu.ru/client/src/pages/components/Navigation.jsx.jsx]\n @ ./src/pages/ToDo/index.jsx 22:41-82\n @ ./src/routes.js\n @ ./src/Entry.jsx\n @ ./src/index.jsx\n @ multi react-hot-loader/patch ./src/index.jsx",
+      "./src/pages/ToDo/index.jsx\nModule not found: Error: Can't resolve './../components/Title.jsx' in '/home/vadim/Documents/kengu.ru/client/src/pages/ToDo'\nresolve './../components/Title.jsx' in '/home/vadim/Documents/kengu.ru/client/src/pages/ToDo'\n  using description file: /home/vadim/Documents/kengu.ru/client/package.json (relative path: ./src/pages/ToDo)\n    Field 'browser' doesn't contain a valid alias configuration\n    using description file: /home/vadim/Documents/kengu.ru/client/package.json (relative path: ./src/pages/components/Title.jsx)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /home/vadim/Documents/kengu.ru/client/src/pages/components/Title.jsx doesn't exist\n      .js\n        Field 'browser' doesn't contain a valid alias configuration\n        /home/vadim/Documents/kengu.ru/client/src/pages/components/Title.jsx.js doesn't exist\n      .jsx\n        Field 'browser' doesn't contain a valid alias configuration\n        /home/vadim/Documents/kengu.ru/client/src/pages/components/Title.jsx.jsx doesn't exist\n      as directory\n        /home/vadim/Documents/kengu.ru/client/src/pages/components/Title.jsx doesn't exist\n[/home/vadim/Documents/kengu.ru/client/src/pages/components/Title.jsx]\n[/home/vadim/Documents/kengu.ru/client/src/pages/components/Title.jsx.js]\n[/home/vadim/Documents/kengu.ru/client/src/pages/components/Title.jsx.jsx]\n @ ./src/pages/ToDo/index.jsx 24:36-72\n @ ./src/routes.js\n @ ./src/Entry.jsx\n @ ./src/index.jsx\n @ multi react-hot-loader/patch ./src/index.jsx"
+    ],
+    "size": 259827,
+    "assets": [
+      {
+        "name": "0.js",
+        "chunks": [
+          0
+        ],
+        "size": 340
+      },
+      {
+        "name": "main.css",
+        "chunks": [
+          1
+        ],
+        "size": 38
+      },
+      {
+        "name": "main.js",
+        "chunks": [
+          1
+        ],
+        "size": 6081
+      },
+      {
+        "name": "runtime.js",
+        "chunks": [
+          2
+        ],
+        "size": 2255
+      },
+      {
+        "name": "vendors.css",
+        "chunks": [
+          3
+        ],
+        "size": 7393
+      },
+      {
+        "name": "vendors.js",
+        "chunks": [
+          3
+        ],
+        "size": 243720
+      }
+    ],
+    "chunks": [
+      {
+        "size": 657,
+        "files": [
+          "0.js"
+        ],
+        "modules": [
+          {
+            "name": "./src/components/Title.jsx",
+            "size": 657,
+            "id": 21
+          }
+        ]
+      },
+      {
+        "size": 13153,
+        "files": [
+          "main.css",
+          "main.js"
+        ],
+        "modules": [
+          {
+            "name": "./src/Entry.jsx",
+            "size": 2316,
+            "id": 15
+          },
+          {
+            "name": "./src/components/Suspense.jsx",
+            "size": 1075,
+            "id": 17
+          },
+          {
+            "name": "./src/components/Navigation.jsx",
+            "size": 1063,
+            "id": 18
+          },
+          {
+            "name": "multi react-hot-loader/patch ./src/index.jsx",
+            "size": 40,
+            "id": 22
+          },
+          {
+            "name": "./src/index.jsx",
+            "size": 590,
+            "id": 26
+          },
+          {
+            "name": "./src/routes.js",
+            "size": 2124,
+            "id": 42
+          },
+          {
+            "name": "./src/pages/Home.jsx",
+            "size": 1099,
+            "id": 43
+          },
+          {
+            "name": "./src/pages/About.jsx",
+            "size": 1100,
+            "id": 46
+          },
+          {
+            "name": "./src/pages/ToDo/index.jsx",
+            "size": 2805,
+            "id": 47
+          },
+          {
+            "name": "./src/pages/ToDo/types.js",
+            "size": 865,
+            "id": 54
+          },
+          {
+            "name": "./src/styles.scss",
+            "size": 39,
+            "id": 57
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles.scss",
+            "size": 37,
+            "id": ""
+          }
+        ]
+      },
+      {
+        "size": 0,
+        "files": [
+          "runtime.js"
+        ],
+        "modules": []
+      },
+      {
+        "size": 794471,
+        "files": [
+          "vendors.css",
+          "vendors.js"
+        ],
+        "modules": [
+          {
+            "name": "../node_modules/react/index.js",
+            "size": 190,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/react/index.js",
+            "size": 190,
+            "id": 1
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+            "size": 1179,
+            "id": 2
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+            "size": 147,
+            "id": 3
+          },
+          {
+            "name": "../node_modules/prop-types/index.js",
+            "size": 710,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/prop-types/index.js",
+            "size": 710,
+            "id": 5
+          },
+          {
+            "name": "../node_modules/react-router-dom/esm/react-router-dom.js + 9 modules",
+            "size": 72507,
+            "id": 6
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectDestructuringEmpty.js",
+            "size": 160,
+            "id": 8
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/inheritsLoose.js",
+            "size": 223,
+            "id": 9
+          },
+          {
+            "name": "../node_modules/react-router/node_modules/path-to-regexp/index.js",
+            "size": 10854,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 11
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/typeof.js",
+            "size": 449,
+            "id": 12
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 472,
+            "id": 13
+          },
+          {
+            "name": "../node_modules/react-is/index.js",
+            "size": 196,
+            "id": 14
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+            "size": 665,
+            "id": 16
+          },
+          {
+            "name": "../node_modules/gud/index.js",
+            "size": 139,
+            "id": 19
+          },
+          {
+            "name": "../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+            "size": 2645,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react-hot-loader/patch.js",
+            "size": 229,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+            "size": 1103,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/cjs/react.production.min.js",
+            "size": 6645,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/@hot-loader/react-dom/index.js",
+            "size": 1363,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/@hot-loader/react-dom/cjs/react-dom.production.min.js",
+            "size": 119061,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/scheduler/index.js",
+            "size": 198,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+            "size": 5114,
+            "id": 30
+          },
+          {
+            "name": "../node_modules/react/cjs/react.production.min.js",
+            "size": 6645,
+            "id": 31
+          },
+          {
+            "name": "../node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 32
+          },
+          {
+            "name": "../node_modules/prop-types/factoryWithThrowingShims.js",
+            "size": 1621,
+            "id": 33
+          },
+          {
+            "name": "../node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 314,
+            "id": 34
+          },
+          {
+            "name": "../node_modules/react-router/node_modules/isarray/index.js",
+            "size": 120,
+            "id": 35
+          },
+          {
+            "name": "../node_modules/react-is/cjs/react-is.production.min.js",
+            "size": 2557,
+            "id": 36
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/extends.js",
+            "size": 427,
+            "id": 37
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
+            "size": 384,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/react-hot-loader/root.js",
+            "size": 858,
+            "id": 39
+          },
+          {
+            "name": "./node_modules/lodash/lodash.js",
+            "size": 540512,
+            "id": 40
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 497,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+            "size": 1621,
+            "id": 44
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 314,
+            "id": 45
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/classCallCheck.js",
+            "size": 196,
+            "id": 48
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+            "size": 343,
+            "id": 49
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/assertThisInitialized.js",
+            "size": 219,
+            "id": 50
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+            "size": 267,
+            "id": 51
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/inherits.js",
+            "size": 505,
+            "id": 52
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/setPrototypeOf.js",
+            "size": 237,
+            "id": 53
+          },
+          {
+            "name": "./node_modules/normalize.css/normalize.css",
+            "size": 39,
+            "id": 55
+          },
+          {
+            "name": "./node_modules/reset-css/reset.css",
+            "size": 39,
+            "id": 56
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src!./node_modules/normalize.css/normalize.css",
+            "size": 6191,
+            "id": ""
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src!./node_modules/reset-css/reset.css",
+            "size": 1200,
+            "id": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1580137577774,
+    "time": 8484,
+    "hash": "a0287c0d7730a577881c",
+    "errors": [],
+    "size": 258794,
+    "assets": [
+      {
+        "name": "main.css",
+        "chunks": [
+          0
+        ],
+        "size": 38
+      },
+      {
+        "name": "main.js",
+        "chunks": [
+          0
+        ],
+        "size": 6150,
+        "minified": true
+      },
+      {
+        "name": "runtime.js",
+        "chunks": [
+          1
+        ],
+        "size": 1492,
+        "minified": true
+      },
+      {
+        "name": "vendors.css",
+        "chunks": [
+          2
+        ],
+        "size": 7393
+      },
+      {
+        "name": "vendors.js",
+        "chunks": [
+          2
+        ],
+        "size": 243721,
+        "miniSize": 245225,
+        "minified": false
+      }
+    ],
+    "chunks": [
+      {
+        "size": 13816,
+        "files": [
+          "main.css",
+          "main.js"
+        ],
+        "modules": [
+          {
+            "name": "./src/components/Navigation.jsx",
+            "size": 1063,
+            "id": 9
+          },
+          {
+            "name": "./src/components/Title.jsx",
+            "size": 657,
+            "id": 10
+          },
+          {
+            "name": "./src/Entry.jsx",
+            "size": 2316,
+            "id": 17
+          },
+          {
+            "name": "./src/components/Suspense.jsx",
+            "size": 1075,
+            "id": 19
+          },
+          {
+            "name": "multi react-hot-loader/patch ./src/index.jsx",
+            "size": 40,
+            "id": 22
+          },
+          {
+            "name": "./src/index.jsx",
+            "size": 590,
+            "id": 26
+          },
+          {
+            "name": "./src/routes.js",
+            "size": 2124,
+            "id": 42
+          },
+          {
+            "name": "./src/pages/Home.jsx",
+            "size": 1099,
+            "id": 43
+          },
+          {
+            "name": "./src/pages/About.jsx",
+            "size": 1100,
+            "id": 46
+          },
+          {
+            "name": "./src/pages/ToDo/index.jsx",
+            "size": 2811,
+            "id": 47
+          },
+          {
+            "name": "./src/pages/ToDo/types.js",
+            "size": 865,
+            "id": 54
+          },
+          {
+            "name": "./src/styles.scss",
+            "size": 39,
+            "id": 57
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles.scss",
+            "size": 37,
+            "id": ""
+          }
+        ]
+      },
+      {
+        "size": 0,
+        "files": [
+          "runtime.js"
+        ],
+        "modules": []
+      },
+      {
+        "size": 794471,
+        "files": [
+          "vendors.css",
+          "vendors.js"
+        ],
+        "modules": [
+          {
+            "name": "../node_modules/react/index.js",
+            "size": 190,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/react/index.js",
+            "size": 190,
+            "id": 1
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+            "size": 1179,
+            "id": 2
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+            "size": 147,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/prop-types/index.js",
+            "size": 710,
+            "id": 4
+          },
+          {
+            "name": "../node_modules/prop-types/index.js",
+            "size": 710,
+            "id": 5
+          },
+          {
+            "name": "../node_modules/react-router-dom/esm/react-router-dom.js + 9 modules",
+            "size": 72507,
+            "id": 6
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectDestructuringEmpty.js",
+            "size": 160,
+            "id": 8
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/inheritsLoose.js",
+            "size": 223,
+            "id": 11
+          },
+          {
+            "name": "../node_modules/react-router/node_modules/path-to-regexp/index.js",
+            "size": 10854,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 13
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/typeof.js",
+            "size": 449,
+            "id": 14
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 472,
+            "id": 15
+          },
+          {
+            "name": "../node_modules/react-is/index.js",
+            "size": 196,
+            "id": 16
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+            "size": 665,
+            "id": 18
+          },
+          {
+            "name": "../node_modules/gud/index.js",
+            "size": 139,
+            "id": 20
+          },
+          {
+            "name": "../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+            "size": 2645,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/react-hot-loader/patch.js",
+            "size": 229,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+            "size": 1103,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/react/cjs/react.production.min.js",
+            "size": 6645,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/@hot-loader/react-dom/index.js",
+            "size": 1363,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/@hot-loader/react-dom/cjs/react-dom.production.min.js",
+            "size": 119061,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/scheduler/index.js",
+            "size": 198,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+            "size": 5114,
+            "id": 30
+          },
+          {
+            "name": "../node_modules/react/cjs/react.production.min.js",
+            "size": 6645,
+            "id": 31
+          },
+          {
+            "name": "../node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 32
+          },
+          {
+            "name": "../node_modules/prop-types/factoryWithThrowingShims.js",
+            "size": 1621,
+            "id": 33
+          },
+          {
+            "name": "../node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 314,
+            "id": 34
+          },
+          {
+            "name": "../node_modules/react-router/node_modules/isarray/index.js",
+            "size": 120,
+            "id": 35
+          },
+          {
+            "name": "../node_modules/react-is/cjs/react-is.production.min.js",
+            "size": 2557,
+            "id": 36
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/extends.js",
+            "size": 427,
+            "id": 37
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
+            "size": 384,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/react-hot-loader/root.js",
+            "size": 858,
+            "id": 39
+          },
+          {
+            "name": "./node_modules/lodash/lodash.js",
+            "size": 540512,
+            "id": 40
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 497,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+            "size": 1621,
+            "id": 44
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 314,
+            "id": 45
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/classCallCheck.js",
+            "size": 196,
+            "id": 48
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+            "size": 343,
+            "id": 49
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/assertThisInitialized.js",
+            "size": 219,
+            "id": 50
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+            "size": 267,
+            "id": 51
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/inherits.js",
+            "size": 505,
+            "id": 52
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/setPrototypeOf.js",
+            "size": 237,
+            "id": 53
+          },
+          {
+            "name": "./node_modules/normalize.css/normalize.css",
+            "size": 39,
+            "id": 55
+          },
+          {
+            "name": "./node_modules/reset-css/reset.css",
+            "size": 39,
+            "id": 56
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src!./node_modules/normalize.css/normalize.css",
+            "size": 6191,
+            "id": ""
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src!./node_modules/reset-css/reset.css",
+            "size": 1200,
+            "id": ""
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 6221,
+    "unPureCssSize": 7431
+  },
+  {
+    "timeStamp": 1582011350211,
+    "time": 9552,
+    "hash": "e245680e534d95586293",
+    "errors": [],
+    "size": 433592,
+    "assets": [
+      {
+        "name": "3.css",
+        "chunks": [
+          3
+        ],
+        "size": 1042
+      },
+      {
+        "name": "3.js",
+        "chunks": [
+          3
+        ],
+        "size": 3906,
+        "minified": true
+      },
+      {
+        "name": "main.css",
+        "chunks": [
+          1
+        ],
+        "size": 38
+      },
+      {
+        "name": "main.js",
+        "chunks": [
+          1
+        ],
+        "size": 10931,
+        "minified": true
+      },
+      {
+        "name": "runtime.js",
+        "chunks": [
+          2
+        ],
+        "size": 3078,
+        "minified": true
+      },
+      {
+        "name": "vendors.css",
+        "chunks": [
+          0
+        ],
+        "size": 15308
+      },
+      {
+        "name": "vendors.js",
+        "chunks": [
+          0
+        ],
+        "size": 399289,
+        "miniSize": 401692,
+        "minified": false
+      }
+    ],
+    "chunks": [
+      {
+        "size": 1019281,
+        "files": [
+          "vendors.css",
+          "vendors.js"
+        ],
+        "modules": [
+          {
+            "name": "../node_modules/prop-types/index.js",
+            "size": 710,
+            "id": 0
+          },
+          {
+            "name": "../node_modules/react/index.js",
+            "size": 190,
+            "id": 1
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/esm/extends.js",
+            "size": 397,
+            "id": 2
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+            "size": 204,
+            "id": 3
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+            "size": 350,
+            "id": 4
+          },
+          {
+            "name": "../node_modules/tiny-invariant/dist/tiny-invariant.esm.js",
+            "size": 317,
+            "id": 5
+          },
+          {
+            "name": "../node_modules/history/esm/history.js + 2 modules",
+            "size": 31363,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/react/index.js",
+            "size": 190,
+            "id": 7
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+            "size": 147,
+            "id": 8
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+            "size": 1179,
+            "id": 9
+          },
+          {
+            "name": "../node_modules/react-router/esm/react-router.js + 1 modules",
+            "size": 29914,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/prop-types/index.js",
+            "size": 710,
+            "id": 11
+          },
+          {
+            "name": "../node_modules/classnames/index.js",
+            "size": 1198,
+            "id": 12
+          },
+          {
+            "name": "../node_modules/react-router-dom/esm/react-router-dom.js",
+            "size": 9997,
+            "id": 13
+          },
+          {
+            "name": "../node_modules/@hot-loader/react-dom/index.js",
+            "size": 1363,
+            "id": 14
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectDestructuringEmpty.js",
+            "size": 160,
+            "id": 17
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/inheritsLoose.js",
+            "size": 223,
+            "id": 20
+          },
+          {
+            "name": "../node_modules/react-router/node_modules/path-to-regexp/index.js",
+            "size": 10854,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 22
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/typeof.js",
+            "size": 449,
+            "id": 23
+          },
+          {
+            "name": "../node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 24
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 472,
+            "id": 25
+          },
+          {
+            "name": "../node_modules/react-is/index.js",
+            "size": 196,
+            "id": 26
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+            "size": 665,
+            "id": 28
+          },
+          {
+            "name": "../node_modules/@babel/runtime/regenerator/index.js",
+            "size": 49,
+            "id": 29
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/asyncToGenerator.js",
+            "size": 809,
+            "id": 30
+          },
+          {
+            "name": "../node_modules/react-toastify/esm/react-toastify.js + 6 modules",
+            "size": 64069,
+            "id": 31
+          },
+          {
+            "name": "../node_modules/gud/index.js",
+            "size": 139,
+            "id": 32
+          },
+          {
+            "name": "../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+            "size": 2645,
+            "id": 33
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/classCallCheck.js",
+            "size": 196,
+            "id": 34
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+            "size": 343,
+            "id": 35
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+            "size": 267,
+            "id": 36
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/inherits.js",
+            "size": 505,
+            "id": 37
+          },
+          {
+            "name": "./node_modules/react-hot-loader/patch.js",
+            "size": 229,
+            "id": 40
+          },
+          {
+            "name": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+            "size": 1103,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/react/cjs/react.production.min.js",
+            "size": 6645,
+            "id": 42
+          },
+          {
+            "name": "./node_modules/@hot-loader/react-dom/index.js",
+            "size": 1363,
+            "id": 44
+          },
+          {
+            "name": "./node_modules/@hot-loader/react-dom/cjs/react-dom.production.min.js",
+            "size": 119061,
+            "id": 45
+          },
+          {
+            "name": "./node_modules/scheduler/index.js",
+            "size": 198,
+            "id": 46
+          },
+          {
+            "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+            "size": 5114,
+            "id": 47
+          },
+          {
+            "name": "../node_modules/react/cjs/react.production.min.js",
+            "size": 6645,
+            "id": 48
+          },
+          {
+            "name": "../node_modules/prop-types/factoryWithThrowingShims.js",
+            "size": 1621,
+            "id": 49
+          },
+          {
+            "name": "../node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 314,
+            "id": 50
+          },
+          {
+            "name": "../node_modules/react-router/node_modules/isarray/index.js",
+            "size": 120,
+            "id": 51
+          },
+          {
+            "name": "../node_modules/react-is/cjs/react-is.production.min.js",
+            "size": 2557,
+            "id": 52
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/extends.js",
+            "size": 427,
+            "id": 53
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
+            "size": 384,
+            "id": 54
+          },
+          {
+            "name": "./node_modules/react-hot-loader/root.js",
+            "size": 858,
+            "id": 55
+          },
+          {
+            "name": "../node_modules/@hot-loader/react-dom/cjs/react-dom.production.min.js",
+            "size": 119061,
+            "id": 56
+          },
+          {
+            "name": "../node_modules/@hot-loader/react-dom/node_modules/scheduler/index.js",
+            "size": 198,
+            "id": 57
+          },
+          {
+            "name": "../node_modules/@hot-loader/react-dom/node_modules/scheduler/cjs/scheduler.production.min.js",
+            "size": 5114,
+            "id": 58
+          },
+          {
+            "name": "./node_modules/lodash/lodash.js",
+            "size": 540512,
+            "id": 59
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 497,
+            "id": 60
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+            "size": 1621,
+            "id": 63
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 314,
+            "id": 64
+          },
+          {
+            "name": "../node_modules/regenerator-runtime/runtime.js",
+            "size": 24076,
+            "id": 67
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/assertThisInitialized.js",
+            "size": 219,
+            "id": 68
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/setPrototypeOf.js",
+            "size": 237,
+            "id": 69
+          },
+          {
+            "name": "./node_modules/normalize.css/normalize.css",
+            "size": 39,
+            "id": 72
+          },
+          {
+            "name": "./node_modules/reset-css/reset.css",
+            "size": 39,
+            "id": 73
+          },
+          {
+            "name": "../node_modules/react-toastify/scss/main.scss",
+            "size": 39,
+            "id": 74
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/defineProperty.js",
+            "size": 289,
+            "id": 77
+          },
+          {
+            "name": "../node_modules/@babel/runtime/helpers/createClass.js",
+            "size": 596,
+            "id": 78
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src!./node_modules/normalize.css/normalize.css",
+            "size": 6191,
+            "id": ""
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!../node_modules/react-toastify/scss/main.scss",
+            "size": 7914,
+            "id": ""
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src!./node_modules/reset-css/reset.css",
+            "size": 1200,
+            "id": ""
+          }
+        ]
+      },
+      {
+        "size": 25332,
+        "files": [
+          "main.css",
+          "main.js"
+        ],
+        "modules": [
+          {
+            "name": "./src/components/Title.jsx",
+            "size": 657,
+            "id": 15
+          },
+          {
+            "name": "./src/components/Suspense.jsx",
+            "size": 1075,
+            "id": 18
+          },
+          {
+            "name": "./src/components/Navigation.jsx",
+            "size": 1063,
+            "id": 19
+          },
+          {
+            "name": "./src/Entry.jsx",
+            "size": 2423,
+            "id": 27
+          },
+          {
+            "name": "./src/pages/ToDo/types.js",
+            "size": 843,
+            "id": 38
+          },
+          {
+            "name": "multi react-hot-loader/patch ./src/index.jsx",
+            "size": 40,
+            "id": 39
+          },
+          {
+            "name": "./src/index.jsx",
+            "size": 633,
+            "id": 43
+          },
+          {
+            "name": "./src/routes.js",
+            "size": 2129,
+            "id": 61
+          },
+          {
+            "name": "./src/pages/Home.jsx",
+            "size": 1099,
+            "id": 62
+          },
+          {
+            "name": "./src/pages/About.jsx",
+            "size": 1100,
+            "id": 65
+          },
+          {
+            "name": "./src/pages/ToDo/index.jsx",
+            "size": 8759,
+            "id": 66
+          },
+          {
+            "name": "./src/api/index.js",
+            "size": 5276,
+            "id": 70
+          },
+          {
+            "name": "./config.js",
+            "size": 159,
+            "id": 71
+          },
+          {
+            "name": "./src/styles.scss",
+            "size": 39,
+            "id": 75
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles.scss",
+            "size": 37,
+            "id": ""
+          }
+        ]
+      },
+      {
+        "size": 0,
+        "files": [
+          "runtime.js"
+        ],
+        "modules": []
+      },
+      {
+        "size": 8589,
+        "files": [
+          "3.css",
+          "3.js"
+        ],
+        "modules": [
+          {
+            "name": "./src/pages/ToDo/Single/index.jsx",
+            "size": 6256,
+            "id": 76
+          },
+          {
+            "name": "./src/components/Modal/index.jsx",
+            "size": 1215,
+            "id": 81
+          },
+          {
+            "name": "./src/components/Modal/Modal.scss",
+            "size": 39,
+            "id": 82
+          },
+          {
+            "name": "./src/pages/ToDo/Single/Single.scss",
+            "size": 39,
+            "id": 83
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pages/ToDo/Single/Single.scss",
+            "size": 549,
+            "id": ""
+          },
+          {
+            "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Modal/Modal.scss",
+            "size": 491,
+            "id": ""
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 17382,
+    "unPureCssSize": 16388
+  }
+]

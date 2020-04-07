@@ -1,0 +1,48 @@
+version: '3'
+
+services:
+
+  redis:
+    image: redis
+    restart: always
+    volumes:
+      - ${REDIS_CONF_HOST}:/usr/local/etc/redis/redis.conf
+      - ${REDIS_DATA_HOST}:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  rebrow:
+    image: marian/rebrow
+    restart: always
+    ports:
+      - 5001:5001
+
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD}
+    volumes:
+      - ${MONGO_CONF_HOST}:${MONGO_CONF_CONTAINER}
+      - ${MONGO_DATA_HOST}:/data/db
+
+  mongoclient:
+    image: mongoclient/mongoclient
+    restart: always
+    ports:
+      - 3300:3000
+
+  pm2:
+    build: ./pm2
+    restart: always
+    environment:
+      MONGO_DB_NAME: ${MONGO_DB_NAME}
+      MONGO_USERNAME: ${MONGO_USERNAME}
+      MONGO_PASSWORD: ${MONGO_PASSWORD}
+    volumes:
+      - ${APP_PATH_VAR}:/var
+      - ${APP_PATH_HOST}:${APP_PATH_CONTAINER}
+    ports:
+      - 3000:3000
+    working_dir: ${APP_PATH_CONTAINER}
+    command: npm start
